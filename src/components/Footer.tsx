@@ -1,4 +1,5 @@
 import { Linkedin, Github, Twitter, Facebook } from "lucide-react";
+import { Logo } from "./Logo";
 
 export function Footer() {
   return (
@@ -6,11 +7,8 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white">D</span>
-              </div>
-              <span className="text-xl">DevCompany</span>
+            <div className="mb-4">
+              <Logo />
             </div>
             <p className="text-slate-400">
               Building innovative software solutions for businesses worldwide.
@@ -57,7 +55,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-          <p>&copy; 2025 DevCompany. All rights reserved.</p>
+          <p>&copy; 2025 Code Better World. All rights reserved.</p>
         </div>
       </div>
     </footer>

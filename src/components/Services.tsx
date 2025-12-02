@@ -134,31 +134,35 @@ const qaTestingServices = [
 
 export function Services() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl mb-4">Our Services</h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Comprehensive software development and quality assurance services tailored to your business needs
+            Comprehensive software development and quality assurance services
           </p>
         </div>
         
         <Tabs defaultValue="software" className="w-full">
-          <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-12">
-            <TabsTrigger value="software">Custom Software Development</TabsTrigger>
-            <TabsTrigger value="qa">QA Testing Services</TabsTrigger>
+          <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-12 bg-slate-100">
+            <TabsTrigger value="software" className="data-[state=active]:bg-slate-900 data-[state=active]:text-white">
+              Software Development
+            </TabsTrigger>
+            <TabsTrigger value="qa" className="data-[state=active]:bg-slate-900 data-[state=active]:text-white">
+              QA Testing
+            </TabsTrigger>
           </TabsList>
           
           <TabsContent value="software">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {customSoftwareServices.map((service, index) => {
                 const Icon = service.icon;
                 return (
-                  <Card key={index} className="p-8 hover:shadow-lg transition-shadow border-slate-200">
-                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                      <Icon className="h-6 w-6 text-blue-600" />
+                  <Card key={index} className="p-6 hover:shadow-md transition-shadow border-slate-200">
+                    <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                      <Icon className="h-6 w-6 text-slate-700" />
                     </div>
-                    <h3 className="text-xl mb-3">{service.title}</h3>
+                    <h3 className="text-xl mb-2">{service.title}</h3>
                     <p className="text-slate-600">{service.description}</p>
                   </Card>
                 );
@@ -167,15 +171,15 @@ export function Services() {
           </TabsContent>
           
           <TabsContent value="qa">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {qaTestingServices.map((service, index) => {
                 const Icon = service.icon;
                 return (
-                  <Card key={index} className="p-8 hover:shadow-lg transition-shadow border-slate-200">
-                    <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
-                      <Icon className="h-6 w-6 text-purple-600" />
+                  <Card key={index} className="p-6 hover:shadow-md transition-shadow border-slate-200">
+                    <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                      <Icon className="h-6 w-6 text-slate-700" />
                     </div>
-                    <h3 className="text-xl mb-3">{service.title}</h3>
+                    <h3 className="text-xl mb-2">{service.title}</h3>
                     <p className="text-slate-600">{service.description}</p>
                   </Card>
                 );

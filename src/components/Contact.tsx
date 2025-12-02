@@ -22,12 +22,12 @@ export function Contact() {
   };
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-20 bg-white min-h-[calc(100vh-4rem)]">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl mb-4">Get In Touch</h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Ready to start your project? Let's discuss how we can help you achieve your goals
+            Let's discuss your project
           </p>
         </div>
         
@@ -77,7 +77,7 @@ export function Contact() {
                   />
                 </div>
                 
-                <Button type="submit" size="lg" className="w-full bg-blue-600 hover:bg-blue-700">
+                <Button type="submit" size="lg" className="w-full bg-slate-900 hover:bg-slate-800">
                   Send Message
                 </Button>
               </form>
@@ -86,24 +86,24 @@ export function Contact() {
           
           <div className="space-y-6">
             <Card className="p-6 border-slate-200">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Mail className="h-6 w-6 text-blue-600" />
+              <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                <Mail className="h-6 w-6 text-slate-700" />
               </div>
               <h3 className="text-lg mb-2">Email Us</h3>
-              <p className="text-slate-600">contact@devcompany.com</p>
+              <p className="text-slate-600">contact@codebetterworld.com</p>
             </Card>
             
             <Card className="p-6 border-slate-200">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Phone className="h-6 w-6 text-blue-600" />
+              <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                <Phone className="h-6 w-6 text-slate-700" />
               </div>
               <h3 className="text-lg mb-2">Call Us</h3>
               <p className="text-slate-600">+1 (555) 123-4567</p>
             </Card>
             
             <Card className="p-6 border-slate-200">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <MapPin className="h-6 w-6 text-blue-600" />
+              <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
+                <MapPin className="h-6 w-6 text-slate-700" />
               </div>
               <h3 className="text-lg mb-2">Visit Us</h3>
               <p className="text-slate-600">123 Tech Street, San Francisco, CA 94105</p>

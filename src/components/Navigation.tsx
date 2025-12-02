@@ -1,43 +1,54 @@
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Logo } from "./Logo";
 
-export function Navigation() {
+interface NavigationProps {
+  activeTab: string;
+  setActiveTab: (tab: string) => void;
+}
+
+export function Navigation({ activeTab, setActiveTab }: NavigationProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false);
-    }
+  const tabs = [
+    { id: "home", label: "Home" },
+    { id: "services", label: "Services" },
+    { id: "portfolio", label: "Portfolio" },
+    { id: "team", label: "Team" },
+    { id: "blog", label: "Blog" },
+  ];
+
+  const handleTabClick = (tabId: string) => {
+    setActiveTab(tabId);
+    setIsOpen(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav className="fixed top-0 left-0 right-0 bg-white border-b border-slate-200 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white">D</span>
-            </div>
-            <span className="text-xl">DevCompany</span>
-          </div>
+          <Logo />
           
-          <div className="hidden md:flex items-center gap-8">
-            <button onClick={() => scrollToSection("services")} className="text-slate-600 hover:text-slate-900">
-              Services
-            </button>
-            <button onClick={() => scrollToSection("portfolio")} className="text-slate-600 hover:text-slate-900">
-              Portfolio
-            </button>
-            <button onClick={() => scrollToSection("team")} className="text-slate-600 hover:text-slate-900">
-              Team
-            </button>
-            <button onClick={() => scrollToSection("testimonials")} className="text-slate-600 hover:text-slate-900">
-              Testimonials
-            </button>
-            <Button onClick={() => scrollToSection("contact")} className="bg-blue-600 hover:bg-blue-700">
+          <div className="hidden md:flex items-center gap-1">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => handleTabClick(tab.id)}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  activeTab === tab.id
+                    ? "bg-slate-100 text-slate-900"
+                    : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+            <Button 
+              onClick={() => handleTabClick("contact")} 
+              className="ml-2 bg-slate-900 hover:bg-slate-800"
+            >
               Contact Us
             </Button>
           </div>
@@ -48,20 +59,24 @@ export function Navigation() {
         </div>
         
         {isOpen && (
-          <div className="md:hidden py-4 space-y-4">
-            <button onClick={() => scrollToSection("services")} className="block w-full text-left text-slate-600 hover:text-slate-900">
-              Services
-            </button>
-            <button onClick={() => scrollToSection("portfolio")} className="block w-full text-left text-slate-600 hover:text-slate-900">
-              Portfolio
-            </button>
-            <button onClick={() => scrollToSection("team")} className="block w-full text-left text-slate-600 hover:text-slate-900">
-              Team
-            </button>
-            <button onClick={() => scrollToSection("testimonials")} className="block w-full text-left text-slate-600 hover:text-slate-900">
-              Testimonials
-            </button>
-            <Button onClick={() => scrollToSection("contact")} className="w-full bg-blue-600 hover:bg-blue-700">
+          <div className="md:hidden py-4 space-y-2">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => handleTabClick(tab.id)}
+                className={`block w-full text-left px-4 py-2 rounded-lg ${
+                  activeTab === tab.id
+                    ? "bg-slate-100 text-slate-900"
+                    : "text-slate-600 hover:text-slate-900 hover:bg-slate-50"
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+            <Button 
+              onClick={() => handleTabClick("contact")} 
+              className="w-full bg-slate-900 hover:bg-slate-800"
+            >
               Contact Us
             </Button>
           </div>
