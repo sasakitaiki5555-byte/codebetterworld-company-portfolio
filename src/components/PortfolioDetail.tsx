@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ArrowLeft, CheckCircle2, ExternalLink, User, TrendingUp, TrendingDown, Repeat, Heart, CheckCircle, Calendar as CalendarIcon, Headphones, DollarSign, Target, Shield, Zap, Users, Globe, ShoppingCart, Store, Package, Video, Wifi, Star, Activity, Home, Clock, Wrench, Truck, ShoppingBag, GitBranch, Bug, AlertTriangle, AlertOctagon, Check, Database } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Card } from "./ui/card";
 import type { PortfolioProject } from "../data/portfolioData";
@@ -11,7 +12,7 @@ interface PortfolioDetailProps {
 }
 
 // Icon mapping for stats
-const iconMap: Record<string, any> = {
+const iconMap: Record<string, LucideIcon> = {
   TrendingUp, TrendingDown, Repeat, Heart, CheckCircle, Calendar: CalendarIcon, 
   Headphones, DollarSign, Target, Shield, Zap, Users, Globe, ShoppingCart, 
   Store, Package, Video, Wifi, Star, Activity, Home, Clock, Wrench, Truck, 
