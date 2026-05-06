@@ -2,6 +2,7 @@ import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { MapPin, Briefcase, Clock, Users, Code, Rocket, Target, Heart } from "lucide-react";
+import { cn } from "./ui/utils";
 
 const openPositions = [
   {
@@ -57,31 +58,43 @@ const openPositions = [
 const benefits = [
   {
     icon: MapPin,
+    iconColor: "text-sky-600",
+    wrapBg: "bg-sky-50",
     title: "Work from Anywhere",
     description: "100% remote-first company. Work from anywhere in the world with flexible hours."
   },
   {
     icon: Rocket,
+    iconColor: "text-orange-600",
+    wrapBg: "bg-orange-50",
     title: "Career Growth",
     description: "Clear career path with mentorship, training budget, and conference attendance."
   },
   {
     icon: Users,
+    iconColor: "text-indigo-600",
+    wrapBg: "bg-indigo-50",
     title: "Collaborative Team",
     description: "Work with talented engineers from around the globe on challenging projects."
   },
   {
     icon: Code,
+    iconColor: "text-emerald-600",
+    wrapBg: "bg-emerald-50",
     title: "Latest Technologies",
     description: "Work with cutting-edge tech stack and contribute to technical decisions."
   },
   {
     icon: Target,
+    iconColor: "text-rose-600",
+    wrapBg: "bg-rose-50",
     title: "Impactful Projects",
     description: "Build products that are used by millions and make a real difference."
   },
   {
     icon: Heart,
+    iconColor: "text-pink-600",
+    wrapBg: "bg-pink-50",
     title: "Work-Life Balance",
     description: "Competitive salary, health benefits, generous PTO, and wellness programs."
   }
@@ -146,8 +159,8 @@ export function Careers() {
               return (
                 <Card key={index} className="p-6 border-slate-200 hover:shadow-md transition-shadow">
                   <div className="flex items-start gap-4">
-                    <div className="p-3 bg-slate-100 rounded-lg">
-                      <IconComponent className="h-6 w-6 text-slate-900" />
+                    <div className={cn("p-3 rounded-lg", benefit.wrapBg)}>
+                      <IconComponent className={cn("h-6 w-6", benefit.iconColor)} />
                     </div>
                     <div>
                       <h3 className="text-xl mb-2">{benefit.title}</h3>
@@ -167,12 +180,12 @@ export function Careers() {
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
                 <div className="text-4xl mb-2">🌎</div>
-                <div className="text-3xl mb-2">50+</div>
+                <div className="text-3xl mb-2">13+</div>
                 <div className="text-slate-600">Engineers Worldwide</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl mb-2">🗺️</div>
-                <div className="text-3xl mb-2">15+</div>
+                <div className="text-3xl mb-2">4+</div>
                 <div className="text-slate-600">Countries</div>
               </div>
               <div className="text-center">
@@ -185,7 +198,7 @@ export function Careers() {
             <div className="bg-white rounded-xl p-6">
               <h3 className="text-xl mb-4 text-center">Developer Locations</h3>
               <div className="flex flex-wrap justify-center gap-3">
-                {["United States", "Canada", "United Kingdom", "Germany", "Poland", "Ukraine", "India", "Philippines", "Vietnam", "Australia", "Brazil", "Argentina", "Mexico", "South Africa", "Israel"].map((location, index) => (
+                {["United States", "Canada", "Ukraine", "Pakistan", "Japan", "Philippines"].map((location, index) => (
                   <Badge key={index} variant="secondary" className="bg-slate-100 text-slate-700 border border-slate-200 px-4 py-2">
                     <MapPin className="h-4 w-4 mr-2 inline" />
                     {location}

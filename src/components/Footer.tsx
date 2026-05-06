@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Mail, Linkedin, Phone, MapPin } from "lucide-react";
 import { Logo } from "./Logo";
 
@@ -10,7 +11,9 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="mb-4">
-              <Logo />
+              <Link to="/" className="inline-block">
+                <Logo />
+              </Link>
             </div>
             <p className="text-slate-400 mb-6">
               Building better software with global talent. Custom development and QA testing services for businesses worldwide.
@@ -22,7 +25,7 @@ export function Footer() {
               <a href="https://linkedin.com/company/codebetterworld" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
+              <a href="https://wa.me/15798996222" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
                 <Phone className="h-5 w-5" />
               </a>
             </div>
@@ -31,12 +34,12 @@ export function Footer() {
           <div>
             <h3 className="text-lg mb-4">Our Company</h3>
             <ul className="space-y-2 text-slate-400">
-              <li><a href="#" className="hover:text-white transition-colors">Who We Are</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Working With Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Our Guarantee</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Our Leadership</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Why CodeBetterWorld</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
+              <li><Link to="/journey" className="hover:text-white transition-colors">Who We Are</Link></li>
+              <li><Link to="/our-team" className="hover:text-white transition-colors">Working With Us</Link></li>
+              <li><Link to="/journey" className="hover:text-white transition-colors">Our Guarantee</Link></li>
+              <li><Link to="/leadership" className="hover:text-white transition-colors">Our Leadership</Link></li>
+              <li><Link to="/about" className="hover:text-white transition-colors">Why CodeBetterWorld</Link></li>
+              <li><Link to="/careers" className="hover:text-white transition-colors">Careers</Link></li>
             </ul>
           </div>
 
@@ -63,16 +66,16 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-5 w-5 flex-shrink-0 mt-0.5" />
-                <a href="https://wa.me/1234567890" className="hover:text-white transition-colors">
-                  WhatsApp: +1 (234) 567-890
+                <a href="https://wa.me/15798996222" className="hover:text-white transition-colors">
+                  WhatsApp: 15798996222
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" />
                 <div>
                   <div>Global Offices:</div>
-                  <div className="text-sm">USA • UK • Germany • India</div>
-                  <div className="text-sm">Remote Teams in 15+ Countries</div>
+                  <div className="text-sm">USA • Canada • Ukraine • Pakistan</div>
+                  <div className="text-sm">Remote Teams in 4+ Countries</div>
                 </div>
               </li>
             </ul>

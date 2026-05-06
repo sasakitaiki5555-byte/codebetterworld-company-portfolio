@@ -1,17 +1,19 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X, Search } from "lucide-react";
 import { Logo } from "./Logo";
 import { Button } from "./ui/button";
+import { navigationHighlightId, tabToPath } from "../routeUtils";
 
-interface MegaNavigationProps {
-  activeTab: string;
-  setActiveTab: (tab: string) => void;
-}
+export function MegaNavigation() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const activeNavId = navigationHighlightId(location.pathname);
 
-export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const closeTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,23 +23,17 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    return () => {
+      if (closeTimerRef.current) window.clearTimeout(closeTimerRef.current);
+    };
+  }, []);
+
   const navigationItems = [
     {
       id: "home",
       label: "Home",
       items: []
-    },
-    {
-      id: "team",
-      label: "Team",
-      items: [
-        { id: "our-team", label: "Our Team" },
-        { id: "careers", label: "Careers" },
-        { id: "contact", label: "Contact Us" },
-        { id: "tech-blog", label: "Tech Blog" },
-        { id: "ebooks", label: "Our E-books" },
-        { id: "journey", label: "Our Journey" }
-      ]
     },
     {
       id: "industries",
@@ -94,19 +90,6 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
       ]
     },
     {
-      id: "hire-developers",
-      label: "Hire Developers",
-      items: [
-        { id: "hire-backend", label: "Backend Developers" },
-        { id: "hire-frontend", label: "Frontend Developers" },
-        { id: "hire-mobile", label: "Mobile Developers" },
-        { id: "hire-ai", label: "AI Engineers" },
-        { id: "hire-devops", label: "DevOps Engineers" },
-        { id: "hire-fullstack", label: "Full Stack Developers" },
-        { id: "hire-blockchain", label: "Blockchain Developers" }
-      ]
-    },
-    {
       id: "portfolio",
       label: "Portfolio",
       items: []
@@ -119,7 +102,8 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
         { id: "blog", label: "Blog" },
         { id: "webinars", label: "Webinars" },
         { id: "whitepapers", label: "White Papers" },
-        { id: "guides", label: "Guides & Reports" }
+        { id: "guides", label: "Guides & Reports" },
+        { id: "industry-insights", label: "Industry Insights" }
       ]
     },
     {
@@ -127,28 +111,38 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
       label: "About",
       items: [
         { id: "leadership", label: "Leadership Team" },
+        { id: "our-team", label: "Our Team" },
         { id: "tech-talent", label: "Our Tech Talent" },
         { id: "culture", label: "Team Culture" },
+        { id: "careers", label: "Careers" },
         { id: "faq", label: "FAQ" },
-        { id: "contact", label: "Contact Us" }
+        { id: "contact", label: "Contact Us" },
+        { id: "tech-blog", label: "Tech Blog" },
+        { id: "ebooks", label: "Our E-books" },
+        { id: "journey", label: "Our Journey" }
       ]
     }
   ];
 
   const handleMouseEnter = (id: string) => {
+    if (closeTimerRef.current) {
+      window.clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
     setActiveDropdown(id);
   };
 
   const handleMouseLeave = () => {
-    setActiveDropdown(null);
+    if (closeTimerRef.current) window.clearTimeout(closeTimerRef.current);
+    closeTimerRef.current = window.setTimeout(() => {
+      setActiveDropdown(null);
+      closeTimerRef.current = null;
+    }, 180);
   };
 
   const handleNavClick = (mainId: string, subId?: string) => {
-    if (subId) {
-      setActiveTab(subId);
-    } else {
-      setActiveTab(mainId);
-    }
+    const tab = subId ?? mainId;
+    navigate(tabToPath(tab));
     setIsMobileMenuOpen(false);
     setActiveDropdown(null);
   };
@@ -160,9 +154,9 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <Link to="/" className="flex-shrink-0" onClick={() => setIsMobileMenuOpen(false)}>
             <Logo />
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
@@ -174,9 +168,10 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
                 onMouseLeave={handleMouseLeave}
               >
                 <button
+                  type="button"
                   onClick={() => handleNavClick(item.id)}
                   className={`px-4 py-2 rounded-lg transition-colors flex items-center gap-1 ${
-                    activeTab === item.id
+                    activeNavId === item.id
                       ? "bg-slate-900 text-white"
                       : "text-slate-700 hover:bg-slate-100"
                   }`}
@@ -187,9 +182,10 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
 
                 {/* Dropdown Menu */}
                 {item.items.length > 0 && activeDropdown === item.id && (
-                  <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-xl border border-slate-200 py-2 min-w-[240px] max-h-[480px] overflow-y-auto">
+                  <div className="absolute top-full left-0 mt-0 bg-white rounded-lg shadow-xl border border-slate-200 py-2 min-w-[240px] max-h-[480px] overflow-y-auto">
                     {item.items.map((subItem) => (
                       <button
+                        type="button"
                         key={subItem.id}
                         onClick={() => handleNavClick(item.id, subItem.id)}
                         className="w-full text-left px-4 py-2 text-slate-700 hover:bg-slate-50 transition-colors"
@@ -205,16 +201,21 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
 
           {/* Search and CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <button className="p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors">
+            <button type="button" className="p-2 text-slate-700 hover:bg-slate-100 rounded-lg transition-colors">
               <Search className="h-5 w-5" />
             </button>
-            <Button className="bg-slate-900 hover:bg-slate-800">
+            <Button
+              type="button"
+              className="bg-slate-900 hover:bg-slate-800"
+              onClick={() => navigate(tabToPath("contact"))}
+            >
               Get Started
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
+            type="button"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2 text-slate-700"
           >
@@ -228,6 +229,7 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
             {navigationItems.map((item) => (
               <div key={item.id} className="mb-2">
                 <button
+                  type="button"
                   onClick={() => {
                     if (item.items.length === 0) {
                       handleNavClick(item.id);
@@ -236,7 +238,7 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
                     }
                   }}
                   className={`w-full text-left px-4 py-2 rounded-lg flex items-center justify-between ${
-                    activeTab === item.id ? "bg-slate-900 text-white" : "text-slate-700"
+                    activeNavId === item.id ? "bg-slate-900 text-white" : "text-slate-700"
                   }`}
                 >
                   {item.label}
@@ -251,6 +253,7 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
                   <div className="ml-4 mt-2 space-y-1">
                     {item.items.map((subItem) => (
                       <button
+                        type="button"
                         key={subItem.id}
                         onClick={() => handleNavClick(item.id, subItem.id)}
                         className="w-full text-left px-4 py-2 text-sm text-slate-600 hover:bg-slate-50 rounded-lg"
@@ -263,7 +266,14 @@ export function MegaNavigation({ activeTab, setActiveTab }: MegaNavigationProps)
               </div>
             ))}
             <div className="px-4 pt-4 border-t border-slate-200 mt-4">
-              <Button className="w-full bg-slate-900 hover:bg-slate-800">
+              <Button
+                type="button"
+                className="w-full bg-slate-900 hover:bg-slate-800"
+                onClick={() => {
+                  navigate(tabToPath("contact"));
+                  setIsMobileMenuOpen(false);
+                }}
+              >
                 Get Started
               </Button>
             </div>

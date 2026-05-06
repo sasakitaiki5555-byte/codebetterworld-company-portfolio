@@ -1,28 +1,37 @@
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Users, Code, Award, TrendingUp, CheckCircle2 } from "lucide-react";
+import { cn } from "./ui/utils";
 
 const teamStats = [
   {
     icon: Users,
+    iconColor: "text-blue-600",
+    wrapBg: "bg-blue-50",
     value: "150+",
     label: "Software Developers",
     description: "Experienced professionals"
   },
   {
     icon: Code,
+    iconColor: "text-emerald-600",
+    wrapBg: "bg-emerald-50",
     value: "50+",
     label: "QA Engineers",
     description: "Testing specialists"
   },
   {
     icon: Award,
+    iconColor: "text-amber-600",
+    wrapBg: "bg-amber-50",
     value: "12+",
     label: "Years Average Experience",
     description: "Senior expertise"
   },
   {
     icon: TrendingUp,
+    iconColor: "text-violet-600",
+    wrapBg: "bg-violet-50",
     value: "500+",
     label: "Projects Delivered",
     description: "Successfully completed"
@@ -160,8 +169,13 @@ export function Team() {
             const Icon = stat.icon;
             return (
               <Card key={index} className="p-6 text-center border-slate-200">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-slate-100 mb-4">
-                  <Icon className="h-6 w-6 text-slate-700" />
+                <div
+                  className={cn(
+                    "inline-flex items-center justify-center w-12 h-12 rounded-lg mb-4",
+                    stat.wrapBg
+                  )}
+                >
+                  <Icon className={cn("h-6 w-6", stat.iconColor)} />
                 </div>
                 <div className="text-3xl mb-2">{stat.value}</div>
                 <div className="mb-1">{stat.label}</div>

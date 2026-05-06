@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: "How does your remote development team work?",
-    answer: "Our global team operates across 15+ countries with 24/7 coverage. We use agile methodologies with bi-weekly sprints, daily standups, and transparent communication through tools like Slack, Jira, and video conferencing. You'll have a dedicated project manager ensuring seamless coordination."
+    answer: "Our global team operates across 4+ countries with 24/7 coverage. We use agile methodologies with bi-weekly sprints, daily standups, and transparent communication through tools like Slack, Jira, and video conferencing. You'll have a dedicated project manager ensuring seamless coordination."
   },
   {
     question: "What is your typical project timeline?",
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     question: "What industries do you specialize in?",
-    answer: "We have deep expertise in eCommerce, Fintech, EdTech, Healthcare, and Fitness industries. Our team has delivered 100+ projects across these sectors, understanding their unique regulatory requirements, security standards, and business models."
+    answer: "We have deep expertise in eCommerce, Fintech, EdTech, Healthcare, and Fitness industries. Our team has delivered 20+ projects across these sectors, understanding their unique regulatory requirements, security standards, and business models."
   },
   {
     question: "How do you ensure code quality?",

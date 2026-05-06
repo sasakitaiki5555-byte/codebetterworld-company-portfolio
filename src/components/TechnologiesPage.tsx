@@ -1,19 +1,23 @@
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Code, Smartphone, Cloud, Cpu, Lock, Box } from "lucide-react";
+import { TechIcon } from "./TechIcon";
+import { Code, Smartphone, Cloud, Cpu, Lock, Layout, Database, Layers } from "lucide-react";
+import { cn } from "./ui/utils";
 
 const technologyCategories = [
   {
     id: "backend",
     title: "Backend Development",
     icon: Code,
+    iconAccent: "text-blue-600",
     color: "bg-blue-50 text-blue-700",
     technologies: ["Node.js", "Python", "PHP", "Golang", ".NET", "Java", "SQL", "Django", "Express.js", "Spring Boot"]
   },
   {
     id: "frontend",
     title: "Frontend Development",
-    icon: Box,
+    icon: Layout,
+    iconAccent: "text-emerald-600",
     color: "bg-green-50 text-green-700",
     technologies: ["React.js", "Angular", "Vue.js", "JavaScript", "TypeScript", "Next.js", "HTML5", "CSS3", "Tailwind CSS"]
   },
@@ -21,6 +25,7 @@ const technologyCategories = [
     id: "mobile",
     title: "Mobile Development",
     icon: Smartphone,
+    iconAccent: "text-violet-600",
     color: "bg-purple-50 text-purple-700",
     technologies: ["iOS App Development", "Android App Development", "Flutter", "React Native", "Kotlin", "Xamarin", "Swift", "Objective-C"]
   },
@@ -28,6 +33,7 @@ const technologyCategories = [
     id: "devops",
     title: "DevOps & Cloud",
     icon: Cloud,
+    iconAccent: "text-sky-600",
     color: "bg-orange-50 text-orange-700",
     technologies: ["AWS", "Google Cloud", "Azure", "Hybrid Cloud", "Jenkins", "Selenium", "Docker", "Kubernetes", "Terraform", "CI/CD"]
   },
@@ -35,6 +41,7 @@ const technologyCategories = [
     id: "ai-automation",
     title: "AI & Automation",
     icon: Cpu,
+    iconAccent: "text-fuchsia-600",
     color: "bg-pink-50 text-pink-700",
     technologies: [
       "AI-based pose detection for MSK rehab",
@@ -53,6 +60,7 @@ const technologyCategories = [
     id: "generative-ai",
     title: "Generative AI",
     icon: Cpu,
+    iconAccent: "text-indigo-600",
     color: "bg-indigo-50 text-indigo-700",
     technologies: [
       "Generative AI Development",
@@ -72,6 +80,7 @@ const technologyCategories = [
     id: "blockchain",
     title: "Blockchain & Web3",
     icon: Lock,
+    iconAccent: "text-amber-600",
     color: "bg-yellow-50 text-yellow-700",
     technologies: [
       "Blockchain Development",
@@ -91,14 +100,16 @@ const technologyCategories = [
   {
     id: "platforms",
     title: "Platforms & CMS",
-    icon: Box,
+    icon: Layers,
+    iconAccent: "text-teal-600",
     color: "bg-teal-50 text-teal-700",
     technologies: ["Salesforce", "ServiceNow", "Odoo", "Magento", "Shopify", "WordPress", "Strapi", "Drupal", "MS PowerApps", "Power BI", "Power Automate"]
   },
   {
     id: "database",
     title: "Databases & Big Data",
-    icon: Code,
+    icon: Database,
+    iconAccent: "text-red-600",
     color: "bg-red-50 text-red-700",
     technologies: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Cassandra", "Snowflake", "Databricks", "Apache Spark", "Hadoop", "ElasticSearch"]
   },
@@ -106,7 +117,8 @@ const technologyCategories = [
     id: "specialized",
     title: "Specialized Technologies",
     icon: Cpu,
-    color: "bg-slate-50 text-slate-700",
+    iconAccent: "text-cyan-600",
+    color: "bg-cyan-50 text-cyan-800",
     technologies: [
       "Field Service Management",
       "Firmware Development",
@@ -127,7 +139,7 @@ interface TechnologiesPageProps {
 }
 
 export function TechnologiesPage({ selectedTech }: TechnologiesPageProps) {
-  const filteredCategories = selectedTech 
+  const filteredCategories = selectedTech
     ? technologyCategories.filter(cat => cat.id === selectedTech)
     : technologyCategories;
 
@@ -148,8 +160,8 @@ export function TechnologiesPage({ selectedTech }: TechnologiesPageProps) {
               <div key={category.id}>
                 <Card className="border-slate-200 overflow-hidden">
                   <div className={`${category.color} p-6 flex items-center gap-4`}>
-                    <div className="p-3 bg-white rounded-lg">
-                      <IconComponent className="h-8 w-8" />
+                    <div className="p-3 bg-white rounded-lg shadow-sm">
+                      <IconComponent className={cn("h-8 w-8", category.iconAccent)} />
                     </div>
                     <h2 className="text-3xl">{category.title}</h2>
                   </div>
@@ -159,9 +171,10 @@ export function TechnologiesPage({ selectedTech }: TechnologiesPageProps) {
                         <Badge
                           key={index}
                           variant="secondary"
-                          className="bg-slate-100 text-slate-700 border border-slate-200 px-4 py-2 text-sm"
+                          className="inline-flex items-center gap-2 bg-slate-100 text-slate-700 border border-slate-200 px-4 py-2 text-sm"
                         >
-                          {tech}
+                          <TechIcon name={tech} className="h-4 w-4 shrink-0" />
+                          <span>{tech}</span>
                         </Badge>
                       ))}
                     </div>

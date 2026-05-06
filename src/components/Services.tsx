@@ -1,10 +1,41 @@
-import { 
-  Code, Smartphone, Cloud, Palette, Database, ShieldCheck, ClipboardCheck,
+import {
+  Code, Smartphone, Cloud, Palette, Database, ClipboardCheck,
   Zap, Globe, Settings, Boxes, RefreshCw, Gauge, Lock, TestTube,
   Activity, FileCode, Target, CheckCircle, GitBranch, Accessibility
 } from "lucide-react";
 import { Card } from "./ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
+import { cn } from "./ui/utils";
+
+const DEV_ICON_PALETTE = [
+  { bg: "bg-blue-100", fg: "text-blue-600" },
+  { bg: "bg-emerald-100", fg: "text-emerald-600" },
+  { bg: "bg-violet-100", fg: "text-violet-600" },
+  { bg: "bg-amber-100", fg: "text-amber-600" },
+  { bg: "bg-rose-100", fg: "text-rose-600" },
+  { bg: "bg-cyan-100", fg: "text-cyan-600" },
+  { bg: "bg-sky-100", fg: "text-sky-600" },
+  { bg: "bg-indigo-100", fg: "text-indigo-600" },
+  { bg: "bg-fuchsia-100", fg: "text-fuchsia-600" },
+  { bg: "bg-orange-100", fg: "text-orange-600" },
+  { bg: "bg-teal-100", fg: "text-teal-600" },
+  { bg: "bg-lime-100", fg: "text-lime-700" },
+];
+
+const QA_ICON_PALETTE = [
+  { bg: "bg-teal-100", fg: "text-teal-600" },
+  { bg: "bg-green-100", fg: "text-green-600" },
+  { bg: "bg-blue-100", fg: "text-blue-600" },
+  { bg: "bg-red-100", fg: "text-red-600" },
+  { bg: "bg-purple-100", fg: "text-purple-600" },
+  { bg: "bg-indigo-100", fg: "text-indigo-600" },
+  { bg: "bg-cyan-100", fg: "text-cyan-600" },
+  { bg: "bg-orange-100", fg: "text-orange-600" },
+  { bg: "bg-pink-100", fg: "text-pink-600" },
+  { bg: "bg-amber-100", fg: "text-amber-600" },
+  { bg: "bg-violet-100", fg: "text-violet-600" },
+  { bg: "bg-sky-100", fg: "text-sky-600" },
+];
 
 const customSoftwareServices = [
   {
@@ -180,7 +211,7 @@ export function Services() {
             </div>
           </div>
         </div>
-        
+
         <Tabs defaultValue="software" className="w-full">
           <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-12 bg-slate-100">
             <TabsTrigger value="software" className="data-[state=active]:bg-slate-900 data-[state=active]:text-white">
@@ -190,15 +221,21 @@ export function Services() {
               QA Testing
             </TabsTrigger>
           </TabsList>
-          
+
           <TabsContent value="software">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {customSoftwareServices.map((service, index) => {
                 const Icon = service.icon;
+                const pal = DEV_ICON_PALETTE[index % DEV_ICON_PALETTE.length];
                 return (
                   <Card key={index} className="p-6 hover:shadow-md transition-shadow border-slate-200">
-                    <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
-                      <Icon className="h-6 w-6 text-slate-700" />
+                    <div
+                      className={cn(
+                        "w-12 h-12 rounded-lg flex items-center justify-center mb-4",
+                        pal.bg
+                      )}
+                    >
+                      <Icon className={cn("h-6 w-6", pal.fg)} />
                     </div>
                     <h3 className="text-xl mb-2">{service.title}</h3>
                     <p className="text-slate-600">{service.description}</p>
@@ -207,15 +244,21 @@ export function Services() {
               })}
             </div>
           </TabsContent>
-          
+
           <TabsContent value="qa">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {qaTestingServices.map((service, index) => {
                 const Icon = service.icon;
+                const pal = QA_ICON_PALETTE[index % QA_ICON_PALETTE.length];
                 return (
                   <Card key={index} className="p-6 hover:shadow-md transition-shadow border-slate-200">
-                    <div className="w-12 h-12 bg-slate-100 rounded-lg flex items-center justify-center mb-4">
-                      <Icon className="h-6 w-6 text-slate-700" />
+                    <div
+                      className={cn(
+                        "w-12 h-12 rounded-lg flex items-center justify-center mb-4",
+                        pal.bg
+                      )}
+                    >
+                      <Icon className={cn("h-6 w-6", pal.fg)} />
                     </div>
                     <h3 className="text-xl mb-2">{service.title}</h3>
                     <p className="text-slate-600">{service.description}</p>

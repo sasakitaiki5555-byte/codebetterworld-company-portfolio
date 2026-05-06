@@ -14,8 +14,11 @@ export function Hero() {
             <h1 className="text-4xl md:text-6xl mb-6">
               Build Better Software with Global Talent
             </h1>
-            <p className="text-xl text-slate-600 mb-8">
-              Harness the power of remote development teams across 15+ countries. We deliver custom software development and comprehensive QA testing services that transform your business.
+            <p className="text-xl text-slate-600 mb-6">
+              Harness the power of remote development teams across 4+ countries. We deliver custom software development and comprehensive QA testing services that transform your business.
+            </p>
+            <p className="text-lg md:text-xl text-slate-800 font-medium leading-relaxed max-w-2xl border-l-4 border-slate-900 pl-5 py-1 mb-8">
+              We deliver high-quality work and support projects until startup companies are ready to build their own internal development teams.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <Button size="lg" className="bg-slate-900 hover:bg-slate-800">
@@ -32,7 +35,7 @@ export function Hero() {
                   <Users className="h-5 w-5 text-slate-900" />
                 </div>
                 <div>
-                  <div className="text-2xl">50+</div>
+                  <div className="text-2xl">13+</div>
                   <div className="text-sm text-slate-600">Engineers</div>
                 </div>
               </div>
@@ -41,7 +44,7 @@ export function Hero() {
                   <Globe className="h-5 w-5 text-slate-900" />
                 </div>
                 <div>
-                  <div className="text-2xl">15+</div>
+                  <div className="text-2xl">4+</div>
                   <div className="text-sm text-slate-600">Countries</div>
                 </div>
               </div>
@@ -50,8 +53,8 @@ export function Hero() {
                   <Code className="h-5 w-5 text-slate-900" />
                 </div>
                 <div>
-                  <div className="text-2xl">100+</div>
-                  <div className="text-sm text-slate-600">Projects</div>
+                  <div className="text-2xl">20+</div>
+                  <div className="text-sm text-slate-600">Projects Delivered</div>
                 </div>
               </div>
             </div>
@@ -59,8 +62,8 @@ export function Hero() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
-                alt="Remote development team collaboration"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1920&q=85"
+                alt="Remote development team collaborating in a live workshop"
                 className="w-full h-auto"
               />
             </div>
@@ -70,7 +73,7 @@ export function Hero() {
             </div>
             <div className="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
               <div className="text-3xl mb-1">24/7</div>
-              <div className="text-sm text-slate-600">Global Support</div>
+              <div className="text-sm text-slate-600">Support</div>
             </div>
           </div>
         </div>

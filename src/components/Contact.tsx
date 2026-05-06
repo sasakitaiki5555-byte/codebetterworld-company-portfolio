@@ -42,8 +42,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg mb-2">WhatsApp</h3>
-                    <a href="https://wa.me/1234567890" className="text-slate-600 hover:text-slate-900">
-                      +1 (234) 567-890
+                    <a href="https://wa.me/15798996222" className="text-slate-600 hover:text-slate-900">
+                      15798996222
                     </a>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export function Contact() {
                     <div className="text-slate-600">
                       <div className="mb-1">USA • United Kingdom</div>
                       <div className="mb-1">Germany • India</div>
-                      <div className="text-sm">Remote teams in 15+ countries</div>
+                      <div className="text-sm">Remote teams in 4+ countries</div>
                     </div>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export function Contact() {
                 
                 <div>
                   <label className="block text-sm mb-2">Phone Number</label>
-                  <Input type="tel" placeholder="+1 (234) 567-890" className="border-slate-300" />
+                  <Input type="tel" placeholder="(555) 555-0123" className="border-slate-300" />
                 </div>
                 
                 <div>

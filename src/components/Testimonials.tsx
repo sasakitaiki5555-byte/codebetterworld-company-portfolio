@@ -111,7 +111,7 @@ export function Testimonials() {
             <div className="text-slate-600">Repeat Clients</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl md:text-5xl mb-2">100+</div>
+            <div className="text-4xl md:text-5xl mb-2">20+</div>
             <div className="text-slate-600">Success Stories</div>
           </div>
         </div>

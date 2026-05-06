@@ -1,10 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import { FileText, Video, BookOpen, TrendingUp, Download, Calendar } from "lucide-react";
+import { FileText, Video, BookOpen, TrendingUp, Download } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { MAC_WORKSPACE_IMAGES as MAC } from "../data/macWorkspaceImages";
 
-const resourceCategories = [
+export const resourceCategories = [
   {
     id: "case-studies",
     title: "Case Studies",
@@ -49,79 +51,140 @@ const resourceCategories = [
   }
 ];
 
-const featuredResources = [
+export type KnowledgeResourceCategoryPath =
+  | "case-studies"
+  | "webinars"
+  | "whitepapers"
+  | "guides"
+  | "industry-insights"
+  | "blog";
+
+export interface FeaturedResource {
+  slug: string;
+  type: string;
+  title: string;
+  description: string;
+  /** Longer body shown on the resource detail page */
+  content: string;
+  image: string;
+  category: string;
+  readTime: string;
+}
+
+const TYPE_TO_CATEGORY: Record<string, KnowledgeResourceCategoryPath> = {
+  "Case Study": "case-studies",
+  "White Paper": "whitepapers",
+  Guide: "guides",
+  Webinar: "webinars",
+  Blog: "blog",
+  "Industry Insight": "industry-insights",
+};
+
+export function categoryPathForFeaturedType(type: string): KnowledgeResourceCategoryPath {
+  return TYPE_TO_CATEGORY[type] ?? "case-studies";
+}
+
+export function hrefForFeaturedResource(resource: FeaturedResource): string {
+  const cat = categoryPathForFeaturedType(resource.type);
+  const enc = encodeURIComponent(resource.slug);
+  return cat === "blog" ? `/blog/${enc}` : `/${cat}/${enc}`;
+}
+
+export const featuredResources: FeaturedResource[] = [
   {
+    slug: "ai-workflow-automation-productivity",
     type: "Case Study",
     title: "AI Workflow Automation Increases Productivity by 30%",
     description: "How we helped a leading company automate workflows with AI-powered solutions",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    content:
+      "This engagement combined workflow discovery, LLM-assisted task automation, and tight feedback loops with stakeholders. Teams reclaimed focused time for product work while repetitive coordination ran reliably in the background. We measured adoption, error rates, and cycle time to prove value and iterated weekly until targets were met.",
+    image: MAC.macBookPurple,
     category: "AI & Automation",
-    readTime: "8 min read"
+    readTime: "8 min read",
   },
   {
+    slug: "future-of-software-testing-2025",
     type: "White Paper",
     title: "The Future of Software Testing in 2025",
     description: "Comprehensive analysis of emerging QA trends and technologies",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    content:
+      "Quality engineering is shifting toward risk-based automation, AI-assisted test design, and continuous validation in production-like environments. This paper summarizes patterns we see across regulated and high-velocity teams, with practical checklists for tooling, metrics, and org design.",
+    image: MAC.macDevIde,
     category: "Quality Assurance",
-    readTime: "15 min read"
+    readTime: "15 min read",
   },
   {
+    slug: "complete-guide-cloud-migration",
     type: "Guide",
     title: "Complete Guide to Cloud Migration",
     description: "Step-by-step strategies for successful cloud transformation",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    content:
+      "Move confidently from assessment to cutover: inventory dependencies, define landing zones, automate infrastructure, and validate security and cost controls. We include sequencing for strangler-style refactors and how to keep teams aligned through each wave of migration.",
+    image: MAC.macBookDark,
     category: "Cloud Computing",
-    readTime: "12 min read"
+    readTime: "12 min read",
   },
   {
+    slug: "scalable-microservices-architecture-webinar",
     type: "Webinar",
     title: "Building Scalable Microservices Architecture",
     description: "Live session on designing and implementing microservices",
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    content:
+      "A structured walkthrough of service boundaries, synchronous vs asynchronous integration, observability, and deployment safety. We cover failure modes, scaling patterns, and how to avoid distributed monoliths while still shipping quickly.",
+    image: MAC.macBookCode,
     category: "Software Architecture",
-    readTime: "45 min"
+    readTime: "45 min",
   },
   {
+    slug: "react-performance-best-practices",
     type: "Blog",
     title: "10 Best Practices for React Performance",
     description: "Optimize your React applications for better performance",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    content:
+      "From memoization and list virtualization to bundle splitting and server components tradeoffs, this article lists ten high-impact practices we apply on production React codebases—with before/after notes and when not to over-optimize.",
+    image: MAC.macBookWood,
     category: "Frontend Development",
-    readTime: "6 min read"
+    readTime: "6 min read",
   },
   {
+    slug: "fintech-innovation-trends-2025",
     type: "Industry Insight",
     title: "FinTech Innovation Trends 2025",
     description: "Key technological advancements shaping the financial sector",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    content:
+      "Embedded finance, real-time payments, and AI-driven compliance are reshaping product roadmaps. We highlight signals from the market, partnership models, and what engineering leaders should prepare for in security and data platforms.",
+    image: MAC.macBookHands,
     category: "FinTech",
-    readTime: "10 min read"
-  }
+    readTime: "10 min read",
+  },
 ];
 
-const upcomingWebinars = [
-  {
-    title: "AI-Driven Test Automation Strategies",
-    date: "Dec 15, 2025",
-    time: "2:00 PM EST",
-    speaker: "Sarah Chen, QA Lead"
-  },
-  {
-    title: "Securing Cloud-Native Applications",
-    date: "Dec 20, 2025",
-    time: "3:00 PM EST",
-    speaker: "Michael Rodriguez, Security Expert"
-  },
-  {
-    title: "Building with Generative AI",
-    date: "Jan 10, 2026",
-    time: "1:00 PM EST",
-    speaker: "Emily Thompson, AI Architect"
+export function findFeaturedResource(
+  categoryPath: string,
+  slug: string
+): FeaturedResource | undefined {
+  let decoded = slug;
+  try {
+    decoded = decodeURIComponent(slug);
+  } catch {
+    /* keep raw */
   }
-];
+  return featuredResources.find(
+    (r) => r.slug === decoded && categoryPathForFeaturedType(r.type) === categoryPath
+  );
+}
 
 export function KnowledgeCenter() {
+  const navigate = useNavigate();
+
+  const goToCategory = (categoryId: string) => {
+    if (categoryId === "blog") {
+      navigate("/blog");
+      return;
+    }
+    navigate(`/${categoryId}`);
+  };
+
   return (
     <section className="py-20 bg-white min-h-[calc(100vh-4rem)]">
       <div className="container mx-auto px-4">
@@ -138,9 +201,18 @@ export function KnowledgeCenter() {
           {resourceCategories.map((category) => {
             const IconComponent = category.icon;
             return (
-              <Card 
+              <Card
                 key={category.id}
+                role="button"
+                tabIndex={0}
                 className="p-6 border-slate-200 hover:shadow-lg transition-shadow cursor-pointer group"
+                onClick={() => goToCategory(category.id)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    goToCategory(category.id);
+                  }
+                }}
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="p-3 bg-slate-100 rounded-lg group-hover:bg-slate-900 group-hover:text-white transition-colors">
@@ -152,9 +224,9 @@ export function KnowledgeCenter() {
                 </div>
                 <h3 className="text-xl mb-2">{category.title}</h3>
                 <p className="text-slate-600 text-sm">{category.description}</p>
-                <button className="mt-4 text-slate-900 hover:underline text-sm">
+                <span className="mt-4 inline-block text-slate-900 group-hover:underline text-sm">
                   Explore →
-                </button>
+                </span>
               </Card>
             );
           })}
@@ -165,7 +237,19 @@ export function KnowledgeCenter() {
           <h2 className="text-3xl md:text-4xl mb-12 text-center">Featured Resources</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredResources.map((resource, index) => (
-              <Card key={index} className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow group">
+              <Card
+                key={index}
+                role="button"
+                tabIndex={0}
+                className="overflow-hidden border-slate-200 hover:shadow-lg transition-shadow group cursor-pointer"
+                onClick={() => navigate(hrefForFeaturedResource(resource))}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    navigate(hrefForFeaturedResource(resource));
+                  }
+                }}
+              >
                 <div className="relative h-48 overflow-hidden">
                   <ImageWithFallback
                     src={resource.image}
@@ -187,35 +271,7 @@ export function KnowledgeCenter() {
                   </div>
                   <h3 className="text-lg mb-2 line-clamp-2">{resource.title}</h3>
                   <p className="text-sm text-slate-600 mb-4 line-clamp-2">{resource.description}</p>
-                  <button className="text-slate-900 hover:underline text-sm">
-                    Read More →
-                  </button>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-
-        {/* Upcoming Webinars */}
-        <div className="mb-12">
-          <h2 className="text-3xl md:text-4xl mb-12 text-center">Upcoming Webinars</h2>
-          <div className="max-w-4xl mx-auto space-y-4">
-            {upcomingWebinars.map((webinar, index) => (
-              <Card key={index} className="p-6 border-slate-200">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                  <div className="flex items-start gap-4">
-                    <div className="p-3 bg-slate-100 rounded-lg">
-                      <Calendar className="h-6 w-6 text-slate-900" />
-                    </div>
-                    <div>
-                      <h3 className="text-lg mb-1">{webinar.title}</h3>
-                      <p className="text-sm text-slate-600 mb-1">{webinar.speaker}</p>
-                      <p className="text-sm text-slate-500">{webinar.date} • {webinar.time}</p>
-                    </div>
-                  </div>
-                  <Button className="bg-slate-900 hover:bg-slate-800 whitespace-nowrap">
-                    Register Now
-                  </Button>
+                  <span className="text-slate-900 group-hover:underline text-sm">Read More →</span>
                 </div>
               </Card>
             ))}

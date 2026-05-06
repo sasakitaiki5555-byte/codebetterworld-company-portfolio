@@ -1,5 +1,4 @@
-import highiqImage from "figma:asset/06a872a6bdbc855e8f417b2921ed098f5e3001b5.png";
-import aiflowproImage from "figma:asset/535102c783a41124201e5812ffa381f73a0f1439.png";
+import { databaseSoftwareProjects } from "./databasePortfolioData";
 
 export interface PortfolioProject {
   id: string;
@@ -31,14 +30,14 @@ export interface PortfolioProject {
   featured?: boolean;
 }
 
-export const customSoftwareProjects: PortfolioProject[] = [
+const baseCustomSoftwareProjects: PortfolioProject[] = [
   {
     id: 'highiq',
     title: "AI Voice and SMS",
     subtitle: "High iQ is a robust AI operating system that emphasizes Voice and SMS outreach for sales and marketing teams.",
     description: "YOUR DIGITAL-FUTURE PARTNER - At HighIQ.ai, we specialize in delivering custom AI solutions to meet your the unique needs of your business.",
     longDescription: "We built a sophisticated AI voice operating system that automates every stage of sales and marketing outreach. Our system uses human-like AI conversations to engage leads instantly via voice, SMS, and email, enabling aggressive, personalized follow up at scale. With built-in multilingual support, intelligent CRM updates, and automated appointment setting, High iQ transforms lead engagement into revenue growth while freeing teams from repetitive tasks.",
-    image: highiqImage,
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=85",
     category: "AI-driven sales and marketing automation",
     technologies: ["ElevenLabs", "Deepgram", "OpenAI", "Twilio", "React", "Express", "Python", "Google API", "OpenGraph", "AWS", "Vimeo"],
     duration: "2 years",
@@ -77,7 +76,7 @@ export const customSoftwareProjects: PortfolioProject[] = [
     subtitle: "AI Workflow is a digital ecosystem hosting six AI-powered applications make it up to 30% faster and more efficient.",
     description: "The platform emphasizes ease of use, quick setup, process optimization, and custom AI apps for companies or individuals, with features like LLM Search for database integration and tools such as AI for Meetings and Chat2Doc.",
     longDescription: "AI-Flow Pro (aiflowpro.io) is an AI-powered platform that serves as a digital ecosystem hosting six AI applications to automate repetitive and administrative tasks, making workflows up to 30% faster and more efficient. It enables users to search multiple online sources, process information from URLs, user-uploaded documents, and multimedia, while delivering analytical summaries, scores, and insights across various domains. The platform emphasizes ease of use, quick setup, process optimization, and custom AI apps for companies or individuals, with features like LLM Search for database integration and tools such as AI for Meetings and Chat2Doc.",
-    image: aiflowproImage,
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=85",
     category: "AI-powered workflow automation and productivity tools",
     technologies: ["Google API", "OpenGraph", "AWS", "Vimeo", "React JS", "Python", "LangChain", "LangGraph", "Express", "PostGres"],
     duration: "1 year",
@@ -328,7 +327,7 @@ export const customSoftwareProjects: PortfolioProject[] = [
     link: "https://taskflow.example.com"
   },
   {
-    id: 'food-delivery',
+    id: "food-delivery",
     title: "Food Delivery Mobile App",
     subtitle: "On-demand food delivery platform with real-time tracking and smart routing algorithms",
     description: "A comprehensive food delivery solution connecting restaurants, delivery partners, and hungry customers.",
@@ -400,6 +399,139 @@ export const customSoftwareProjects: PortfolioProject[] = [
     }
   }
 ];
+
+function isMobilePortfolioProject(project: PortfolioProject): boolean {
+  const title = project.title.toLowerCase();
+  const category = project.category.toLowerCase();
+  const technologies = project.technologies.map((t) => t.toLowerCase());
+  return (
+    category.includes("mobile") ||
+    title.includes("mobile app") ||
+    technologies.includes("ios") ||
+    technologies.includes("android") ||
+    technologies.includes("react native") ||
+    technologies.includes("flutter")
+  );
+}
+
+const PLACEHOLDER_MOBILE_CARD_TITLE = /^(play\.google\.com|apps\.apple\.com)$/i;
+const SIXT_MISIMPORT_BOILERPLATE = "250,000 cars";
+
+function humanizeWordParts(s: string): string {
+  return s
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+    .join(" ");
+}
+
+function humanizeFromSlugSegment(slug: string): string {
+  try {
+    slug = decodeURIComponent(slug);
+  } catch {
+    /* ignore */
+  }
+  const spaced = slug
+    .replace(/[-_]+/g, " ")
+    .replace(/([a-z])([A-Z0-9])/g, "$1 $2")
+    .replace(/([0-9])([a-zA-Z])/g, "$1 $2");
+  return humanizeWordParts(spaced);
+}
+
+function titleFromStoreLink(link: string | undefined): string | null {
+  if (!link?.trim()) return null;
+  try {
+    const u = new URL(link.trim());
+    const host = u.hostname.replace(/^www\./i, "").toLowerCase();
+
+    if (host === "play.google.com" && /\/store\/apps\/details\b/i.test(u.pathname)) {
+      const packageId = u.searchParams.get("id");
+      if (!packageId) return null;
+      const parts = packageId.split(".").filter(Boolean);
+      if (!parts.length) return null;
+      const skipTail = new Set([
+        "app",
+        "android",
+        "mobile",
+        "ios",
+        "free",
+        "lite",
+        "pro",
+        "hd",
+        "plus",
+      ]);
+      let i = parts.length - 1;
+      while (i > 0 && skipTail.has(parts[i].toLowerCase())) i--;
+      return humanizeFromSlugSegment(parts[i]);
+    }
+
+    if (host === "apps.apple.com") {
+      const m = u.pathname.match(/\/app\/([^/]+)\//i);
+      if (m?.[1]) return humanizeFromSlugSegment(m[1]);
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
+function titleFromDatabaseMobileFolderId(id: string): string | null {
+  const prefix = "db-mobile-";
+  if (!id.startsWith(prefix)) return null;
+  const slug = id.slice(prefix.length);
+  return slug
+    .split("-")
+    .filter((w) => w.length > 0)
+    .map((w) => humanizeWordParts(w))
+    .join(" ");
+}
+
+/**
+ * Card heading for the Mobile Apps tab: database imports sometimes use hostnames or
+ * duplicated case-study copy as `title` while the store URL identifies the real app.
+ */
+export function getMobilePortfolioCardTitle(project: PortfolioProject): string {
+  const t = project.title.trim();
+  const badTitle =
+    PLACEHOLDER_MOBILE_CARD_TITLE.test(t) ||
+    t.includes(SIXT_MISIMPORT_BOILERPLATE) ||
+    /^figma\.com$/i.test(t);
+
+  if (badTitle) {
+    const fromLink = titleFromStoreLink(project.link);
+    if (fromLink) return fromLink;
+    const fromId = titleFromDatabaseMobileFolderId(project.id);
+    if (fromId) return fromId;
+  }
+
+  return t || "Mobile project";
+}
+
+/** Figma file references from Database — shown under the Figma Design tab only. */
+export const figmaPortfolioProjects: PortfolioProject[] = databaseSoftwareProjects.filter(
+  (p) => p.category === "Figma Design"
+);
+
+const databaseSoftwareProjectsExcludingFigmaAndMobile = databaseSoftwareProjects.filter(
+  (p) => p.category !== "Figma Design" && p.category !== "Mobile Apps"
+);
+
+const softwarePortfolioPool: PortfolioProject[] = [
+  ...baseCustomSoftwareProjects,
+  ...databaseSoftwareProjectsExcludingFigmaAndMobile,
+];
+
+/** Mobile app items from both core portfolio and database imports. */
+export const mobileAppPortfolioProjects: PortfolioProject[] = [
+  ...softwarePortfolioPool.filter(isMobilePortfolioProject),
+  ...databaseSoftwareProjects.filter((p) => p.category === "Mobile Apps"),
+];
+
+/** AI automation/software tab excludes mobile-focused projects. */
+export const customSoftwareProjects: PortfolioProject[] = softwarePortfolioPool.filter(
+  (p) => !isMobilePortfolioProject(p)
+);
 
 export const qaTestingProjects: PortfolioProject[] = [
   {
