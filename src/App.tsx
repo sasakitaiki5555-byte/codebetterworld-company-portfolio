@@ -145,7 +145,9 @@ export default function App() {
                 Explore Code Better World
               </h1>
               <p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed text-slate-600">
-                Choose a section to view details.
+                If you think you have great ideas and marketing skills, please
+                contact us. Working with excellent business people is our main
+                principle.
               </p>
             </div>
 

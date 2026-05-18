@@ -100,6 +100,7 @@ async function fetchOgImageFromPage(pageUrl) {
 function needsRemoteImage(image, link) {
   if (!link || typeof link !== "string") return false;
   if (!image || typeof image !== "string") return true;
+  if (image.startsWith("/portfolio-database/")) return false;
   if (image.startsWith("/src")) return true;
   if (image.includes(LEGACY_PLACEHOLDER_SUBSTR)) return true;
   if (image === BUILD_PLACEHOLDER_IMAGE) return true;
@@ -193,6 +194,154 @@ function extractStringField(text, key) {
 function extractFirstUrl(text) {
   const m = text.match(/https?:\/\/[^\s"'<>]+/);
   return m ? m[0].replace(/[,;.)]+$/, "") : "";
+}
+
+const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"]);
+
+function sanitizePublicBasename(id) {
+  return (
+    String(id || "asset")
+      .replace(/[^a-zA-Z0-9_-]+/g, "-")
+      .replace(/^-|-$/g, "")
+      .slice(0, 120) || "asset"
+  );
+}
+
+function listImagesInDir(dir) {
+  if (!fs.existsSync(dir)) return [];
+  let entries;
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return [];
+  }
+  return entries
+    .filter((e) => e.isFile() && IMAGE_EXTENSIONS.has(path.extname(e.name).toLowerCase()))
+    .map((e) => path.join(dir, e.name));
+}
+
+const PREFERRED_IMAGE_PREFIXES = [
+  "cover",
+  "thumbnail",
+  "thumb",
+  "poster",
+  "screenshot",
+  "screen",
+  "hero",
+  "banner",
+  "image",
+  "main",
+];
+
+function pickLocalImageFromProjectDir(dir) {
+  const files = listImagesInDir(dir);
+  if (!files.length) return null;
+
+  function prefScore(baseNameNoExt) {
+    let best = -1;
+    for (let i = 0; i < PREFERRED_IMAGE_PREFIXES.length; i++) {
+      const pref = PREFERRED_IMAGE_PREFIXES[i];
+      if (
+        baseNameNoExt === pref ||
+        baseNameNoExt.startsWith(`${pref}-`) ||
+        baseNameNoExt.startsWith(`${pref}_`)
+      ) {
+        best = Math.max(best, PREFERRED_IMAGE_PREFIXES.length - i);
+      }
+    }
+    return best;
+  }
+
+  const scored = files.map((p) => {
+    const base = path.basename(p).toLowerCase().replace(/\.[^.]+$/, "");
+    return { p, key: base, ps: prefScore(base) };
+  });
+  scored.sort((a, b) => {
+    if (b.ps !== a.ps) return b.ps - a.ps;
+    return a.key.localeCompare(b.key);
+  });
+  return scored[0].p;
+}
+
+function copyImageToPublic(absSrc, basenameNoExt) {
+  const destDir = path.join(projectRoot, "public", "portfolio-database");
+  fs.mkdirSync(destDir, { recursive: true });
+  const ext = path.extname(absSrc).toLowerCase() || ".png";
+  const safeBase = sanitizePublicBasename(basenameNoExt);
+  const dest = path.join(destDir, `${safeBase}${ext}`);
+  fs.copyFileSync(absSrc, dest);
+  return `/portfolio-database/${safeBase}${ext}`;
+}
+
+function tryResolveImageFromRawPath(rawImage, projectDir, publicBasename) {
+  if (!rawImage || typeof rawImage !== "string" || rawImage.startsWith("http")) return null;
+  const trimmed = rawImage.trim();
+  const name = path.basename(trimmed.replace(/^[/\\]+/, "").replace(/^src[/\\]assets[/\\]/i, ""));
+  if (!name || name.includes("..")) return null;
+  const candidate = path.join(projectDir, name);
+  if (fs.existsSync(candidate) && fs.statSync(candidate).isFile()) {
+    return copyImageToPublic(candidate, publicBasename);
+  }
+  return null;
+}
+
+/** Prefer files in the Database project folder, then a basename referenced in detail/main (e.g. ai-lamo.png). */
+function resolveLocalDatabaseFolderImage(projectDir, projectId, rawImage) {
+  const base = sanitizePublicBasename(projectId);
+  const picked = pickLocalImageFromProjectDir(projectDir);
+  if (picked) return copyImageToPublic(picked, base);
+  return tryResolveImageFromRawPath(rawImage, projectDir, base);
+}
+
+function longestPrefixMatch(a, b) {
+  const n = Math.min(a.length, b.length);
+  let i = 0;
+  while (i < n && a[i] === b[i]) i++;
+  return i;
+}
+
+/**
+ * When Database/<category>/<folder>/ contains images, match folder name to URL-list project title
+ * and use that file as the card hero (Figma Design / AI technologies URL exports).
+ */
+function attachMatchedFolderImages(projects, categoryRoot) {
+  if (!fs.existsSync(categoryRoot)) return projects;
+
+  const dirs = fs
+    .readdirSync(categoryRoot, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => path.join(categoryRoot, d.name));
+
+  return projects.map((project) => {
+    const tk = foldKey(project.title);
+    let bestScore = 0;
+    let bestPath = null;
+
+    for (const dirPath of dirs) {
+      const fk = foldKey(path.basename(dirPath));
+      if (!fk || !tk) continue;
+
+      let score = 0;
+      if (tk === fk) score = 1000;
+      else if (tk.includes(fk) || fk.includes(tk)) score = 500 + longestPrefixMatch(tk, fk);
+      else {
+        const lp = longestPrefixMatch(tk, fk);
+        if (lp >= 5) score = lp;
+      }
+
+      if (score < bestScore) continue;
+      const img = pickLocalImageFromProjectDir(dirPath);
+      if (!img) continue;
+      if (score > bestScore) {
+        bestScore = score;
+        bestPath = img;
+      }
+    }
+
+    if (!bestPath || bestScore < 5) return project;
+    const url = copyImageToPublic(bestPath, sanitizePublicBasename(project.id));
+    return { ...project, image: url };
+  });
 }
 
 function normalizeImage(rawImage, category, projectId) {
@@ -314,13 +463,16 @@ function mobileAppProjects() {
       raw.subtitle || (description.length > 160 ? `${description.slice(0, 157)}…` : description)
     );
 
+    const projectId = `db-mobile-${id}`;
+    const localHero = resolveLocalDatabaseFolderImage(dir, projectId, raw.image);
+
     const project = {
-      id: `db-mobile-${id}`,
+      id: projectId,
       title: String(raw.title || folderName).replace(/\s*\([^)]*\)\s*g?$/i, "").trim() || folderName,
       subtitle,
       description,
       longDescription: String(raw.longDescription || raw.description || description),
-      image: normalizeImage(raw.image, category, `db-mobile-${id}`),
+      image: localHero || normalizeImage(raw.image, category, projectId),
       category,
       technologies: Array.isArray(raw.technologies) && raw.technologies.length
         ? raw.technologies.map(String)
@@ -548,6 +700,7 @@ function applyForcedImageOverrides(projects) {
   return projects.map((project) => {
     const forcedImage = FORCED_IMAGE_BY_ID[project.id];
     if (!forcedImage) return project;
+    if (project.image && String(project.image).startsWith("/portfolio-database/")) return project;
     return { ...project, image: forcedImage };
   });
 }
@@ -564,8 +717,14 @@ async function main() {
   }
 
   const mobile = mobileAppProjects();
-  const figma = figmaProjects();
-  const ai = aiTechProjects();
+  const figma = attachMatchedFolderImages(
+    figmaProjects(),
+    path.join(databaseRoot, "Figma Design")
+  );
+  const ai = attachMatchedFolderImages(
+    aiTechProjects(),
+    path.join(databaseRoot, "AI technologies")
+  );
   let all = [...mobile, ...figma, ...ai];
   all = await enrichPortfolioImages(all);
   all = applyLiveImageryFallbacks(all);

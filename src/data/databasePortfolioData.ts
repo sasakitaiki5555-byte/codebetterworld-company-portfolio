@@ -8,7 +8,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Ultimate bridge between renowned institutions like McKinsey, BCG, Bain, and the everyday individual eager to harness the power of AI",
     "description": "Free AI education app that teaches ChatGPT prompting, machine learning basics, and practical AI skills through bite-sized lessons, experiments, and a gamified community experience.",
     "longDescription": "ai LaMo serves as the ",
-    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-learn-ai-chat-gpt.webp",
     "category": "Education",
     "technologies": [
       "Mobile",
@@ -45,7 +45,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Real-Time Group Social Platform with AI",
     "description": "Chatter is a Bethesda-based social platform (11-50 employees) combining real-time Live Rooms, asynchronous threaded posts, RocketChats (monetized premium messages), and AI features like Luna assistant and avatar generation. Angel-funded by David Adeleke with Growth Score 71.",
     "longDescription": "Chatter Social (chattersocial.io) enables group-first, interest-based communities through Live Rooms (audio/video streaming), RocketChats (real-time paid support), ticketed events, Moments/Replays, and threaded discussions. AI-powered Luna handles moderation/transcription/insights while avatar tools create lifelike animated videos from user photos. Hosted on Google Cloud with Cloudflare CDN, it emphasizes creator monetization via subscriptions and premium interactions. Founded by Nelson Epega, the platform serves Art/Content Creators/Social Media categories with 34 active web technologies per BuiltWith. Recent funding and 6K monthly visits signal growth despite declining Heat Score (65).",
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-chattersocial.webp",
     "category": "Social Network",
     "technologies": [
       "Kotlin",
@@ -119,7 +119,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -193,7 +193,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-dr-oracle-ai-medical-assistant.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -262,12 +262,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-eh4v",
+    "id": "db-mobile-sixt-2sxb",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-2sxb.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -336,12 +336,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-257r",
+    "id": "db-mobile-sixt-owmv",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-owmv.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -410,12 +410,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-dngn",
+    "id": "db-mobile-sixt-281b",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-281b.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -484,12 +484,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-emte",
+    "id": "db-mobile-sixt-wzvy",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=85",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -557,12 +557,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-9igt",
+    "id": "db-mobile-sixt-ejq3",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-ejq3.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -631,12 +631,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-2n5r",
+    "id": "db-mobile-sixt-guil",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-guil.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -705,12 +705,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-3u14",
+    "id": "db-mobile-sixt-dg5r",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-dg5r.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -779,12 +779,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-7578",
+    "id": "db-mobile-sixt-6zy9",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-6zy9.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -853,12 +853,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-r3i3",
+    "id": "db-mobile-sixt-sknb",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-sknb.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -927,12 +927,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-vso0",
+    "id": "db-mobile-sixt-w9sc",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-w9sc.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1001,12 +1001,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-l99w",
+    "id": "db-mobile-sixt-kxbw",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-kxbw.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1075,12 +1075,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-cdc6",
+    "id": "db-mobile-sixt-naa0",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-naa0.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1149,12 +1149,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-qltg",
+    "id": "db-mobile-sixt-ul56",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-ul56.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1223,12 +1223,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-ec47",
+    "id": "db-mobile-sixt-b5z9",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-b5z9.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1297,12 +1297,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-80g5",
+    "id": "db-mobile-sixt-s18g",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-s18g.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1371,12 +1371,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-3kl8",
+    "id": "db-mobile-sixt-jnk7",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-jnk7.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1445,12 +1445,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-qonc",
+    "id": "db-mobile-sixt-3ltw",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-3ltw.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1519,12 +1519,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-g7yc",
+    "id": "db-mobile-sixt-4oi8",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-4oi8.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1593,12 +1593,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-n6ds",
+    "id": "db-mobile-sixt-p99c",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-p99c.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1667,12 +1667,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-8ukq",
+    "id": "db-mobile-sixt-dh7l",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-dh7l.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1741,7 +1741,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-1k5t",
+    "id": "db-mobile-sixt-8ypf",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
@@ -1814,12 +1814,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-l55b",
+    "id": "db-mobile-sixt-j6y4",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-j6y4.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1888,12 +1888,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-ghi1",
+    "id": "db-mobile-sixt-qi7a",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-qi7a.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1962,12 +1962,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-qkg2",
+    "id": "db-mobile-sixt-t5df",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-t5df.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2036,12 +2036,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-s39n",
+    "id": "db-mobile-sixt-qf33",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-qf33.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2110,12 +2110,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-34f8",
+    "id": "db-mobile-sixt-30pe",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-30pe.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2184,12 +2184,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-x69v",
+    "id": "db-mobile-sixt-l1nt",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-l1nt.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2258,12 +2258,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-uhdo",
+    "id": "db-mobile-sixt-gpae",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-gpae.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2332,12 +2332,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-zkry",
+    "id": "db-mobile-sixt-x1jc",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-mobile-sixt-x1jc.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2411,7 +2411,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-burj-0.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2449,7 +2449,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-qwick-1.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2487,7 +2487,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-mauritious-2.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2525,7 +2525,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-tale-master-3.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2563,7 +2563,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-qii-78-4.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2601,7 +2601,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-meal-app-5.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2639,7 +2639,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1561070792505-d74c8e5e2c9c?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-task-book-6.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2677,7 +2677,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-vita-sage-7.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2715,7 +2715,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-kickoff-football-league-8.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2753,7 +2753,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-goworkspain-9.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2791,7 +2791,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-cycle-wellness-app-10.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2824,12 +2824,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-app-tradex85-com-11",
-    "title": "app.tradex85.com",
+    "id": "db-figma-design-figma-design-trade-x-11",
+    "title": "Trade X",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-trade-x-11.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2867,7 +2867,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1586714045002-7a5546362694?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:f6bf1c83-26a6-4c21-a57a-084be8e1983a;revision=11?component_id=0f2c31ee-80f6-4aad-bbe8-c86d093c3056&api_key=CometServer1&access_token=1776441635_urn%3Aaaid%3Asc%3AUS%3Af6bf1c83-26a6-4c21-a57a-084be8e1983a%3Bpublic_9d5bf22484036eeac06e9cb286cb7aa92a026267",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2900,12 +2900,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-figma-com-13",
-    "title": "figma.com",
+    "id": "db-figma-design-figma-design-rmn-events-13",
+    "title": "RMN events",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-rmn-events-13.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2943,7 +2943,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1542744173-8e7e5348bb0c?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-rmnevents-com-14.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -2976,12 +2976,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-figma-com-15",
-    "title": "figma.com",
+    "id": "db-figma-design-figma-design-nutriplan-meal-scan-15",
+    "title": "Nutriplan Meal Scan",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1561070792505-d74c8e5e2c9c?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-nutriplan-meal-scan-15.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3052,12 +3052,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-figma-com-17",
-    "title": "figma.com",
+    "id": "db-figma-design-figma-design-suratfit-habit-tracker-17",
+    "title": "Suratfit Habit Tracker",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-suratfit-habit-tracker-17.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3128,12 +3128,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-play-google-com-19",
-    "title": "play.google.com",
+    "id": "db-figma-design-figma-design-ahmedsc-ascapp-19",
+    "title": "Ahmedsc Ascapp",
     "subtitle": "Mobile Apps — live reference and design work",
     "description": "Curated link from the agency database (Mobile Apps).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Mobile Apps.",
-    "image": "https://images.unsplash.com/photo-1626785774573-4b799314346d?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-ahmedsc-ascapp-19.png",
     "category": "Mobile Apps",
     "technologies": [
       "Mobile",
@@ -3204,12 +3204,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-figma-com-21",
-    "title": "figma.com",
+    "id": "db-figma-design-figma-design-omtechservice-21",
+    "title": "OmTechService",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-omtechservice-21.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3247,7 +3247,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-omtechservice-com-22.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3280,12 +3280,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-statitt-com-23",
-    "title": "statitt.com",
+    "id": "db-figma-design-figma-design-statitt-23",
+    "title": "Statitt",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-statitt-23.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3356,12 +3356,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-aviano-adenau-de-25",
-    "title": "aviano-adenau.de",
+    "id": "db-figma-design-figma-design-aviano-adenau-25",
+    "title": "Aviano Adenau",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-figma-design-figma-design-aviano-adenau-25.png",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3432,12 +3432,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-figma-com-27",
-    "title": "figma.com",
+    "id": "db-figma-design-figma-design-innovative-branding-graphics-platform-development-solving-f",
+    "title": "Innovative Branding & Graphics platform development solving fundamental operation",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://www.figma.com/design/nCMl7BDVhX3E1NFSRELHUG/&#47;&#47;www.figma.com&#47;file&#47;nCMl7BDVhX3E1NFSRELHUG&#47;thumbnail?ver=thumbnails%2F72b339ee-6013-49f0-8476-9fbf41df80a9&t=xQ1zdWYDLPWZePKv-0",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3475,7 +3475,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://www.figma.com/design/BG9ngvKQ68uJMAnmvsVTD8/&#47;&#47;www.figma.com&#47;file&#47;BG9ngvKQ68uJMAnmvsVTD8&#47;thumbnail?ver=thumbnails%2Fbfe346f7-1ae6-446f-b400-f908e682e977&t=Jd4XhP4l9Jg5EeSl-0",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3508,12 +3508,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-figma-design-figma-design-figma-com-29",
-    "title": "figma.com",
+    "id": "db-figma-design-figma-design-performance-optimized-health-fitness-mobile-application-lev",
+    "title": "Performance-optimized Health & Fitness mobile application leveraging native",
     "subtitle": "Figma Design — live reference and design work",
     "description": "Curated link from the agency database (Figma Design).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://www.figma.com/design/cAJPEwc6dfa6g3QrzNlXpz/&#47;&#47;www.figma.com&#47;file&#47;cAJPEwc6dfa6g3QrzNlXpz&#47;thumbnail?ver=thumbnails%2F45416820-e9ec-4626-aa6e-9fdf42836f7c&t=HB5jzgycwj0zvREv-0",
     "category": "Figma Design",
     "technologies": [
       "Figma",
@@ -3543,120 +3543,6 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
       "role": "Agency portfolio"
     },
     "link": "https://www.figma.com/design/cAJPEwc6dfa6g3QrzNlXpz/Final-BuddyTrainer--Final-UI-?node-id=3717-1695&p=f&t=HB5jzgycwj0zvREv-0",
-    "featured": false
-  },
-  {
-    "id": "db-figma-design-figma-design-prioritysoft-io-30",
-    "title": "prioritysoft.io",
-    "subtitle": "Figma Design — live reference and design work",
-    "description": "Curated link from the agency database (Figma Design).",
-    "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1586714045002-7a5546362694?auto=format&fit=crop&w=1600&q=85",
-    "category": "Figma Design",
-    "technologies": [
-      "Figma",
-      "UI/UX",
-      "Design systems"
-    ],
-    "duration": "—",
-    "teamSize": "—",
-    "client": "Various",
-    "challenge": "Represent breadth of delivery across tools and platforms.",
-    "solution": "We maintain curated references to live products, designs, and AI work.",
-    "results": [
-      "Reference preserved in the agency knowledge base.",
-      "Linked resource available for stakeholders and prospects."
-    ],
-    "stats": [
-      {
-        "label": "Source",
-        "value": "Database",
-        "icon": "Database",
-        "description": "Imported from Database directory."
-      }
-    ],
-    "testimonial": {
-      "quote": "Our portfolio reflects a wide range of engagements; these references showcase additional context.",
-      "author": "CodeBetterWorld",
-      "role": "Agency portfolio"
-    },
-    "link": "https://prioritysoft.io/our-work/coach-frank",
-    "featured": false
-  },
-  {
-    "id": "db-figma-design-figma-design-artificial-intelligence-31",
-    "title": "Artificial Intelligence",
-    "subtitle": "Figma Design — live reference and design work",
-    "description": "Curated link from the agency database (Figma Design).",
-    "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Figma Design.",
-    "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=1600&q=85",
-    "category": "Figma Design",
-    "technologies": [
-      "Figma",
-      "UI/UX",
-      "Design systems"
-    ],
-    "duration": "—",
-    "teamSize": "—",
-    "client": "Various",
-    "challenge": "Represent breadth of delivery across tools and platforms.",
-    "solution": "We maintain curated references to live products, designs, and AI work.",
-    "results": [
-      "Reference preserved in the agency knowledge base.",
-      "Linked resource available for stakeholders and prospects."
-    ],
-    "stats": [
-      {
-        "label": "Source",
-        "value": "Database",
-        "icon": "Database",
-        "description": "Imported from Database directory."
-      }
-    ],
-    "testimonial": {
-      "quote": "Our portfolio reflects a wide range of engagements; these references showcase additional context.",
-      "author": "CodeBetterWorld",
-      "role": "Agency portfolio"
-    },
-    "link": "https://coachfrank.ai/",
-    "featured": false
-  },
-  {
-    "id": "db-figma-design-figma-design-play-google-com-32",
-    "title": "play.google.com",
-    "subtitle": "Mobile Apps — live reference and design work",
-    "description": "Curated link from the agency database (Mobile Apps).",
-    "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to Mobile Apps.",
-    "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=1200&q=85",
-    "category": "Mobile Apps",
-    "technologies": [
-      "Mobile",
-      "iOS",
-      "Android"
-    ],
-    "duration": "—",
-    "teamSize": "—",
-    "client": "Various",
-    "challenge": "Represent breadth of delivery across tools and platforms.",
-    "solution": "We maintain curated references to live products, designs, and AI work.",
-    "results": [
-      "Reference preserved in the agency knowledge base.",
-      "Linked resource available for stakeholders and prospects."
-    ],
-    "stats": [
-      {
-        "label": "Source",
-        "value": "Database",
-        "icon": "Database",
-        "description": "Imported from Database directory."
-      }
-    ],
-    "testimonial": {
-      "quote": "Our portfolio reflects a wide range of engagements; these references showcase additional context.",
-      "author": "CodeBetterWorld",
-      "role": "Agency portfolio"
-    },
-    "link": "https://play.google.com/store/apps/details?id=ai.coachfrank&pcampaignid=web_share",
     "featured": false
   },
   {
@@ -3703,7 +3589,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://framerusercontent.com/assets/5s9yi2Gp0A3xIljubCISH2mlFuU.png",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -3741,7 +3627,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://pps.services.adobe.com/api/profile/FD322C6D5C6267A30A495C7C@AdobeID/image/6109b1f4-bd5a-430a-a5dc-95deb29d5caf/276",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -3779,7 +3665,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://lh7-us.googleusercontent.com/docs/AHkbwyKutIOKAGdwqR8lNWvCNpZLkOw2bIqivYzChuhG4uWPuWgbOj9Mel7BF-7enWTIwOj__94UUeaoOvwnrWqgzrTpVfGXyNxHjxULIqzfXrUSpgeJv2Y=w1200-h630-p",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -3817,7 +3703,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://lh7-us.googleusercontent.com/docs/AHkbwyJtVgaHvGf9ZN2FrXl9sR3QTpNsxyoYPqzoS-VTpw75V05fM8K1goQzpZsP7c7i4XGnRAcX_1LNLHBHGDCjNo04li15Bnvd74xmNtdCh3PQncKfDVWL=w1200-h630-p",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4007,7 +3893,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://core-memories-webapp-frontend-dev.azurewebsites.net/og-image.png",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4045,7 +3931,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-ailawyer-pro-10.webp",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4083,7 +3969,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-mccarthy-ca-11.png",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4121,7 +4007,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-healthread-com-12.webp",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4159,7 +4045,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://play-lh.googleusercontent.com/tlcjbK6VEnBDs0y7hsh8_0dOKRtF_PwjL-WtGSSpBT8bkFhkIr7CoU-Xn1FYuZP0uw",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4197,7 +4083,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-qumata-com-14.png",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4235,7 +4121,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-cerascreen-co-uk-15.webp",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4273,7 +4159,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-advisorarmor-com-16.webp",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4311,7 +4197,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-riskrater-com-17.png",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4349,7 +4235,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-homeshow-ai-18.webp",
     "category": "AI & Technology",
     "technologies": [
       "AI",
@@ -4387,7 +4273,7 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "subtitle": "AI & Technology — live reference and design work",
     "description": "Curated link from the agency database (AI & Technology).",
     "longDescription": "This entry is sourced from the Database folder and points to external work, case studies, or design artifacts relevant to AI & Technology.",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+    "image": "/portfolio-database/db-ai-technology-ai-technology-intent2lead-io-19.webp",
     "category": "AI & Technology",
     "technologies": [
       "AI",
