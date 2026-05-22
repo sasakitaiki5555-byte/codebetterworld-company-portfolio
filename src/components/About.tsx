@@ -66,22 +66,18 @@ const guarantees = [
 const leadership = [
   {
     name: "Charles Gagnon",
-    role: "CEO & Co-Founder",
     bio: "15+ years in software development and business strategy. Former CTO at betted startups."
   },
   {
     name: "Volodymyr Berezhok",
-    role: "CTO & Co-Founder",
     bio: "Expert in AI/ML and cloud architecture. Led engineering teams at top tech companies."
   },
   {
     name: "Sasaki Taiki",
-    role: "VP of Engineering",
     bio: "20+ years building and scaling engineering organizations. Passionate about team development."
   },
   {
     name: "Jack Hoff",
-    role: "VP of Quality Assurance",
     bio: "QA expert with deep experience in test automation and quality processes across industries."
   }
 ];
@@ -109,7 +105,6 @@ function LeadershipCards() {
             <Users className="h-12 w-12 text-slate-600" />
           </div>
           <h3 className="text-xl mb-1">{leader.name}</h3>
-          <p className="text-slate-600 mb-3">{leader.role}</p>
           <p className="text-sm text-slate-600">{leader.bio}</p>
         </Card>
       ))}
