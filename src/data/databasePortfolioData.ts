@@ -262,12 +262,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-2sxb",
+    "id": "db-mobile-sixt-00mu",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-2sxb.webp",
+    "image": "/portfolio-database/db-mobile-sixt-00mu.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -336,12 +336,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-owmv",
+    "id": "db-mobile-sixt-fq3u",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-owmv.webp",
+    "image": "/portfolio-database/db-mobile-sixt-fq3u.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -410,12 +410,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-281b",
+    "id": "db-mobile-sixt-sywt",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-281b.webp",
+    "image": "/portfolio-database/db-mobile-sixt-sywt.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -484,7 +484,1264 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-wzvy",
+    "id": "db-mobile-sixt-f0ap",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-gs0t",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-gs0t.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=co.justcheckingin&hl=en&gl=US",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-y140",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-y140.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.inklink.lettsoflondon",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-j985",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-j985.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://apps.apple.com/us/app/mealzo-order-local-takeaway/id1558698286",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-4h06",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-4h06.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=app.mentor.ai",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-cq6h",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-cq6h.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=ai.moescape.android",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-bdx2",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-bdx2.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.muso.ai.musoai",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-pq9g",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-pq9g.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.mycollege.tour",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-m1mu",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-m1mu.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.heimdall.ntnooz",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-sbuq",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-sbuq.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.oner.education",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-sbhu",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-sbhu.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=ai.rafa.finance",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-2zjl",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-2zjl.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://apps.apple.com/us/app/rideyellow-your-taxi-app/id989271127",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-jwts",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-jwts.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=co.justimagine.rosebud",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-59mw",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-59mw.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.rtro&hl=en",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-kv4p",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-kv4p.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.shortwave.android",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-l92v",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-l92v.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.adfreeway&hl=en",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-6jsx",
+    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
+    "subtitle": "The perfect car for your next trip from Munich Airport",
+    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
+    "longDescription": "We built a sophisticated",
+    "image": "/portfolio-database/db-mobile-sixt-6jsx.webp",
+    "category": "Travel & Local",
+    "technologies": [
+      "Kotlin",
+      "Flutter",
+      "AWS",
+      "Google Cloud",
+      "Google Maps SDK",
+      "FCM",
+      "BLE"
+    ],
+    "duration": "7 months",
+    "teamSize": "4 developers",
+    "client": "SIXT",
+    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
+    "solution": "We developed...",
+    "results": [
+      "90% reduction in common customer support questions",
+      "24/7 AI-powered customer availability",
+      "Advanced photo analysis using Amazon Rekognition",
+      "Intelligent recommendations combining photo data with product knowledge"
+    ],
+    "stats": [
+      {
+        "label": "Support Reduction",
+        "value": "90%",
+        "icon": "TrendingUp",
+        "description": "Reduction in common questions"
+      },
+      {
+        "label": "Availability",
+        "value": "24/7",
+        "icon": "CheckCircle",
+        "description": "AI-powered customer support"
+      },
+      {
+        "label": "Products Analyzed",
+        "value": "40+",
+        "icon": "Target",
+        "description": "Latexite products in knowledge base"
+      },
+      {
+        "label": "AI Models",
+        "value": "Claude 4/3.7",
+        "icon": "Users",
+        "description": "Sonnet with fallback model"
+      },
+      {
+        "label": "Photo Analysis",
+        "value": "Rekognition",
+        "icon": "Clock",
+        "description": "Amazon Rekognition for image processing"
+      },
+      {
+        "label": "Architecture",
+        "value": "Serverless",
+        "icon": "CheckCircle",
+        "description": "Auto-scaling cloud platform"
+      }
+    ],
+    "testimonial": {
+      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
+      "author": "SIXT Team",
+      "role": "Customer Service Department"
+    },
+    "link": "https://play.google.com/store/apps/details?id=com.sar.taxvault",
+    "featured": false
+  },
+  {
+    "id": "db-mobile-sixt-q98r",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
@@ -557,1269 +1814,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-ejq3",
+    "id": "db-mobile-sixt-3r9w",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-ejq3.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=co.justcheckingin&hl=en&gl=US",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-guil",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-guil.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.inklink.lettsoflondon",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-dg5r",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-dg5r.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://apps.apple.com/us/app/mealzo-order-local-takeaway/id1558698286",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-6zy9",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-6zy9.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=app.mentor.ai",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-sknb",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-sknb.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=ai.moescape.android",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-w9sc",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-w9sc.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.muso.ai.musoai",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-kxbw",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-kxbw.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.mycollege.tour",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-naa0",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-naa0.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.heimdall.ntnooz",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-ul56",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-ul56.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.oner.education",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-b5z9",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-b5z9.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=ai.rafa.finance",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-s18g",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-s18g.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://apps.apple.com/us/app/rideyellow-your-taxi-app/id989271127",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-jnk7",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-jnk7.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=co.justimagine.rosebud",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-3ltw",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-3ltw.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.rtro&hl=en",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-4oi8",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-4oi8.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.shortwave.android",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-p99c",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-p99c.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.adfreeway&hl=en",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-dh7l",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-dh7l.webp",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "link": "https://play.google.com/store/apps/details?id=com.sar.taxvault",
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-8ypf",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85",
-    "category": "Travel & Local",
-    "technologies": [
-      "Kotlin",
-      "Flutter",
-      "AWS",
-      "Google Cloud",
-      "Google Maps SDK",
-      "FCM",
-      "BLE"
-    ],
-    "duration": "7 months",
-    "teamSize": "4 developers",
-    "client": "SIXT",
-    "challenge": "SIXT needed convenience, flexibility, and premium service to attract more customers.",
-    "solution": "We developed...",
-    "results": [
-      "90% reduction in common customer support questions",
-      "24/7 AI-powered customer availability",
-      "Advanced photo analysis using Amazon Rekognition",
-      "Intelligent recommendations combining photo data with product knowledge"
-    ],
-    "stats": [
-      {
-        "label": "Support Reduction",
-        "value": "90%",
-        "icon": "TrendingUp",
-        "description": "Reduction in common questions"
-      },
-      {
-        "label": "Availability",
-        "value": "24/7",
-        "icon": "CheckCircle",
-        "description": "AI-powered customer support"
-      },
-      {
-        "label": "Products Analyzed",
-        "value": "40+",
-        "icon": "Target",
-        "description": "Latexite products in knowledge base"
-      },
-      {
-        "label": "AI Models",
-        "value": "Claude 4/3.7",
-        "icon": "Users",
-        "description": "Sonnet with fallback model"
-      },
-      {
-        "label": "Photo Analysis",
-        "value": "Rekognition",
-        "icon": "Clock",
-        "description": "Amazon Rekognition for image processing"
-      },
-      {
-        "label": "Architecture",
-        "value": "Serverless",
-        "icon": "CheckCircle",
-        "description": "Auto-scaling cloud platform"
-      }
-    ],
-    "testimonial": {
-      "quote": "The service has been excellent, and almost all of our customers enjoy using the app. It's also helping us grow our service.",
-      "author": "SIXT Team",
-      "role": "Customer Service Department"
-    },
-    "featured": false
-  },
-  {
-    "id": "db-mobile-sixt-j6y4",
-    "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
-    "subtitle": "The perfect car for your next trip from Munich Airport",
-    "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
-    "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-j6y4.webp",
+    "image": "/portfolio-database/db-mobile-sixt-3r9w.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1888,12 +1888,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-qi7a",
+    "id": "db-mobile-sixt-kqv4",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-qi7a.webp",
+    "image": "/portfolio-database/db-mobile-sixt-kqv4.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1962,12 +1962,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-t5df",
+    "id": "db-mobile-sixt-1vjx",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-t5df.webp",
+    "image": "/portfolio-database/db-mobile-sixt-1vjx.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2036,12 +2036,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-qf33",
+    "id": "db-mobile-sixt-l625",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-qf33.webp",
+    "image": "/portfolio-database/db-mobile-sixt-l625.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2110,12 +2110,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-30pe",
+    "id": "db-mobile-sixt-d7a7",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-30pe.webp",
+    "image": "/portfolio-database/db-mobile-sixt-d7a7.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2184,12 +2184,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-l1nt",
+    "id": "db-mobile-sixt-e444",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-l1nt.webp",
+    "image": "/portfolio-database/db-mobile-sixt-e444.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2258,12 +2258,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-gpae",
+    "id": "db-mobile-sixt-znpa",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-gpae.webp",
+    "image": "/portfolio-database/db-mobile-sixt-znpa.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2332,12 +2332,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-x1jc",
+    "id": "db-mobile-sixt-2bt3",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-x1jc.webp",
+    "image": "/portfolio-database/db-mobile-sixt-2bt3.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
