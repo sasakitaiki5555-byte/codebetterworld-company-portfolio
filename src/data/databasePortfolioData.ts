@@ -262,12 +262,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-00mu",
+    "id": "db-mobile-sixt-2t64",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-00mu.webp",
+    "image": "/portfolio-database/db-mobile-sixt-2t64.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -336,12 +336,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-fq3u",
+    "id": "db-mobile-sixt-ll7t",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-fq3u.webp",
+    "image": "/portfolio-database/db-mobile-sixt-ll7t.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -410,12 +410,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-sywt",
+    "id": "db-mobile-sixt-wwt8",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-sywt.webp",
+    "image": "/portfolio-database/db-mobile-sixt-wwt8.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -484,12 +484,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-f0ap",
+    "id": "db-mobile-sixt-we83",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -557,12 +557,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-gs0t",
+    "id": "db-mobile-sixt-bwfl",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-gs0t.webp",
+    "image": "/portfolio-database/db-mobile-sixt-bwfl.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -631,12 +631,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-y140",
+    "id": "db-mobile-sixt-dra1",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-y140.webp",
+    "image": "/portfolio-database/db-mobile-sixt-dra1.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -705,12 +705,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-j985",
+    "id": "db-mobile-sixt-8pwf",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-j985.webp",
+    "image": "/portfolio-database/db-mobile-sixt-8pwf.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -779,12 +779,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-4h06",
+    "id": "db-mobile-sixt-aq7z",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-4h06.webp",
+    "image": "/portfolio-database/db-mobile-sixt-aq7z.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -853,12 +853,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-cq6h",
+    "id": "db-mobile-sixt-bkj0",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-cq6h.webp",
+    "image": "/portfolio-database/db-mobile-sixt-bkj0.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -927,12 +927,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-bdx2",
+    "id": "db-mobile-sixt-wazb",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-bdx2.webp",
+    "image": "/portfolio-database/db-mobile-sixt-wazb.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1001,12 +1001,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-pq9g",
+    "id": "db-mobile-sixt-525y",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-pq9g.webp",
+    "image": "/portfolio-database/db-mobile-sixt-525y.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1075,12 +1075,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-m1mu",
+    "id": "db-mobile-sixt-kviw",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-m1mu.webp",
+    "image": "/portfolio-database/db-mobile-sixt-kviw.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1149,12 +1149,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-sbuq",
+    "id": "db-mobile-sixt-6mqz",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-sbuq.webp",
+    "image": "/portfolio-database/db-mobile-sixt-6mqz.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1223,12 +1223,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-sbhu",
+    "id": "db-mobile-sixt-jyxj",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-sbhu.webp",
+    "image": "/portfolio-database/db-mobile-sixt-jyxj.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1297,12 +1297,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-2zjl",
+    "id": "db-mobile-sixt-n2mf",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-2zjl.webp",
+    "image": "/portfolio-database/db-mobile-sixt-n2mf.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1371,12 +1371,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-jwts",
+    "id": "db-mobile-sixt-st5b",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-jwts.webp",
+    "image": "/portfolio-database/db-mobile-sixt-st5b.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1445,12 +1445,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-59mw",
+    "id": "db-mobile-sixt-pz1a",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-59mw.webp",
+    "image": "/portfolio-database/db-mobile-sixt-pz1a.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1519,12 +1519,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-kv4p",
+    "id": "db-mobile-sixt-nsao",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-kv4p.webp",
+    "image": "/portfolio-database/db-mobile-sixt-nsao.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1593,12 +1593,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-l92v",
+    "id": "db-mobile-sixt-2h0q",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-l92v.webp",
+    "image": "/portfolio-database/db-mobile-sixt-2h0q.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1667,12 +1667,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-6jsx",
+    "id": "db-mobile-sixt-0dnu",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-6jsx.webp",
+    "image": "/portfolio-database/db-mobile-sixt-0dnu.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1741,12 +1741,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-q98r",
+    "id": "db-mobile-sixt-vn2l",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=85",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1814,12 +1814,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-3r9w",
+    "id": "db-mobile-sixt-4t3y",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-3r9w.webp",
+    "image": "/portfolio-database/db-mobile-sixt-4t3y.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1888,12 +1888,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-kqv4",
+    "id": "db-mobile-sixt-zp79",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-kqv4.webp",
+    "image": "/portfolio-database/db-mobile-sixt-zp79.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -1962,12 +1962,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-1vjx",
+    "id": "db-mobile-sixt-t8w0",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-1vjx.webp",
+    "image": "/portfolio-database/db-mobile-sixt-t8w0.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2036,12 +2036,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-l625",
+    "id": "db-mobile-sixt-q405",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-l625.webp",
+    "image": "/portfolio-database/db-mobile-sixt-q405.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2110,12 +2110,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-d7a7",
+    "id": "db-mobile-sixt-oqb0",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-d7a7.webp",
+    "image": "/portfolio-database/db-mobile-sixt-oqb0.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2184,12 +2184,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-e444",
+    "id": "db-mobile-sixt-g7n6",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-e444.webp",
+    "image": "/portfolio-database/db-mobile-sixt-g7n6.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2258,12 +2258,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-znpa",
+    "id": "db-mobile-sixt-m50x",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-znpa.webp",
+    "image": "/portfolio-database/db-mobile-sixt-m50x.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",
@@ -2332,12 +2332,12 @@ export const databaseSoftwareProjects: PortfolioProject[] = [
     "featured": false
   },
   {
-    "id": "db-mobile-sixt-2bt3",
+    "id": "db-mobile-sixt-a4j5",
     "title": "Worldwide network with over 250,000 cars in over 105 countries with 2,000 stations",
     "subtitle": "The perfect car for your next trip from Munich Airport",
     "description": "Convenience, flexibility, and premium service for a smooth rental and mobility experience worldwide",
     "longDescription": "We built a sophisticated",
-    "image": "/portfolio-database/db-mobile-sixt-2bt3.webp",
+    "image": "/portfolio-database/db-mobile-sixt-a4j5.webp",
     "category": "Travel & Local",
     "technologies": [
       "Kotlin",

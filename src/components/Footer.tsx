@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Linkedin, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -22,10 +22,7 @@ export function Footer() {
               <a href="mailto:contact@codebetterworld.com" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com/company/codebetterworld" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="https://wa.me/15798996222" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
+              <a href="https://wa.me/14188019845" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 hover:bg-slate-700 rounded-lg transition-colors">
                 <Phone className="h-5 w-5" />
               </a>
             </div>
@@ -66,8 +63,8 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-5 w-5 flex-shrink-0 mt-0.5" />
-                <a href="https://wa.me/15798996222" className="hover:text-white transition-colors">
-                  WhatsApp: 15798996222
+                <a href="https://wa.me/14188019845" className="hover:text-white transition-colors">
+                  WhatsApp: 14188019845
                 </a>
               </li>
               <li className="flex items-start gap-2">

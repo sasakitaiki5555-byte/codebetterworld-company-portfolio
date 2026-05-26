@@ -1,2 +1,3 @@
 node_modules/
+# Vite production output. Keep a separate git repo under build/.git and push to your host (e.g. GitHub Pages).
 build/

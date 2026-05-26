@@ -69,15 +69,15 @@ const leadership = [
     bio: "15+ years in software development and business strategy. Former CTO at betted startups."
   },
   {
-    name: "Volodymyr Berezhok",
+    name: "Brandon Caron",
     bio: "Expert in AI/ML and cloud architecture. Led engineering teams at top tech companies."
   },
   {
-    name: "Sasaki Taiki",
+    name: "Austin James",
     bio: "20+ years building and scaling engineering organizations. Passionate about team development."
   },
   {
-    name: "Jack Hoff",
+    name: "Mykola Bukhta",
     bio: "QA expert with deep experience in test automation and quality processes across industries."
   }
 ];
@@ -104,7 +104,7 @@ function LeadershipCards() {
           <div className="w-24 h-24 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
             <Users className="h-12 w-12 text-slate-600" />
           </div>
-          <h3 className="text-xl mb-1">{leader.name}</h3>
+          <h3 className="text-xl mb-2">{leader.name}</h3>
           <p className="text-sm text-slate-600">{leader.bio}</p>
         </Card>
       ))}

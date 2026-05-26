@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Send, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Input } from "./ui/input";
@@ -42,22 +42,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg mb-2">WhatsApp</h3>
-                    <a href="https://wa.me/15798996222" className="text-slate-600 hover:text-slate-900">
-                      15798996222
-                    </a>
-                  </div>
-                </div>
-              </Card>
-
-              <Card className="p-6 border-slate-200">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-slate-100 rounded-lg">
-                    <Linkedin className="h-6 w-6 text-slate-900" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg mb-2">LinkedIn</h3>
-                    <a href="https://linkedin.com/company/codebetterworld" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-900">
-                      linkedin.com/company/codebetterworld
+                    <a href="https://wa.me/14188019845" className="text-slate-600 hover:text-slate-900">
+                      14188019845
                     </a>
                   </div>
                 </div>
